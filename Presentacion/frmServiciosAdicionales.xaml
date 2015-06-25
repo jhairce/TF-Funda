@@ -1,0 +1,19 @@
+﻿<Window x:Class="Presentacion.frmServiciosAdicionales"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mantenimiento de servicios adicionales" Height="510" Width="406">
+    <Grid>
+        <TextBox x:Name="txtNombreServA" HorizontalAlignment="Left" Height="23" Margin="190,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <GroupBox Header="Lista de servicios adicionales" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Height="296" Width="370">
+            <Grid>
+                <DataGrid x:Name="dgServiciosAdicionales" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="186" Width="338"/>
+                <Button x:Name="btnEliminarServA" Content="Eliminar sevicio adicional" HorizontalAlignment="Left" Margin="107,222,0,0" VerticalAlignment="Top" Width="139" Height="27"/>
+            </Grid>
+        </GroupBox>
+        <TextBox x:Name="txtPrecioServA" HorizontalAlignment="Left" Height="23" Margin="190,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Precio:" HorizontalAlignment="Left" Margin="20,75,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="btnAgregarServA" Content="Agregar servicio adicional" HorizontalAlignment="Left" Margin="110,125,0,0" VerticalAlignment="Top" Width="154" Height="29"/>
+        <Label Content="Nombre del servicio:" HorizontalAlignment="Left" Margin="20,25,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

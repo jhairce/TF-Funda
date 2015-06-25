@@ -1,0 +1,26 @@
+﻿<Window x:Class="Presentacion.frmRegistroHuesped"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registro de Huesped" Height="500" Width="500"  Activated="Window_Activated_1">
+    <Grid>
+        <GroupBox x:Name="grpDatosHuesped" Header="Datos del huesped" HorizontalAlignment="Left" Height="348" Margin="10,10,0,0" VerticalAlignment="Top" Width="460">
+            <Grid>
+                <Label Content="Nombre:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label Content="Apellidos:" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label Content="DNI:" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label Content="Email" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label Content="Telefono:" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label Content="Tarjeta de crédito:" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="169,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+                <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="169,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+                <TextBox x:Name="txtDNI" HorizontalAlignment="Left" Height="23" Margin="169,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+                <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="169,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+                <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="169,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+                <TextBox x:Name="txtCredito" HorizontalAlignment="Left" Height="23" Margin="169,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" FontSize="14"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnRegistrar" Content="Completar registro" HorizontalAlignment="Left" Margin="265,385,0,0" VerticalAlignment="Top" Width="189" Height="38" FontSize="16" Click="btnRegistrar_Click"/>
+        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="35,385,0,0" VerticalAlignment="Top" Width="189" Height="38" FontSize="16" Click="btnLimpiar_Click"/>
+
+    </Grid>
+</Window>
