@@ -83,6 +83,9 @@
     <Compile Include="frmServiciosAdicionales.xaml.cs">
       <DependentUpon>frmServiciosAdicionales.xaml</DependentUpon>
     </Compile>
+    <Compile Include="frmTiposHabitacion.xaml.cs">
+      <DependentUpon>frmTiposHabitacion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -149,6 +152,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="frmServiciosAdicionales.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmTiposHabitacion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

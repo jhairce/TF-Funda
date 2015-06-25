@@ -12,7 +12,7 @@
         <GroupBox Header="Datos de Habitación" HorizontalAlignment="Left" Margin="20,139,0,0" VerticalAlignment="Top" Height="407" Width="349">
             <Grid>
 
-                <Label Content="Tipo de habitación:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <Label Content="Filtro de tipo:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14"/>
                 <Label Content="Habitación:" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" FontSize="14"/>
                 <ComboBox x:Name="cbNumHabit" HorizontalAlignment="Left" Margin="169,51,0,0" VerticalAlignment="Top" Width="140"/>
                 <GroupBox Header="Características de la habitación:" HorizontalAlignment="Left" Margin="20,78,0,0" VerticalAlignment="Top" Height="225" Width="289">

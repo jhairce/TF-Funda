@@ -69,6 +69,10 @@ namespace Presentacion
         {
 
         }
+        private void btnTiposHabitacion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
         #endregion
 
         #region Agente
@@ -156,6 +160,7 @@ namespace Presentacion
 
         }
         #endregion 
+
 
         
 

@@ -17,15 +17,16 @@
                 </GroupBox>
             </Grid>
         </GroupBox>
-        <GroupBox x:Name="grpAdministracion" Header="Controles Administración" Margin="10,135,10,10" IsHitTestVisible="True" Visibility="Hidden">
+        <GroupBox x:Name="grpAdministracion" Header="Controles Administración" Margin="10,135,10,10" IsHitTestVisible="True" Visibility="Visible">
             <Grid>
                 <Button x:Name="btnServiciosAdicionales" Content="Servicios Adicionales" HorizontalAlignment="Left" Margin="190,300,0,0" VerticalAlignment="Top" Width="165" Height="100" FontSize="14" Click="btnServiciosAdicionales_Click"/>
                 <Button x:Name="btnHabitaciones" Content="Habitaciones" HorizontalAlignment="Left" Margin="190,90,0,0" VerticalAlignment="Top" Width="165" Height="100" FontSize="14" Click="btnHabitaciones_Click" />
                 <Button x:Name="btnCaracHabitaciones" Content="Características de &#xD;&#xA;     Habitaciones" HorizontalAlignment="Left" Margin="600,90,0,0" VerticalAlignment="Top" Width="165" Height="100" FontSize="14" Click="btnCaracHabitaciones_Click"/>
                 <Button x:Name="btnReportes" Content="Reportes" HorizontalAlignment="Left" Margin="600,300,0,0" VerticalAlignment="Top" Width="165" Height="100" FontSize="14" Click="btnReportes_Click"/>
+                <Button x:Name="btnTiposHabitacion" Content="Tipos de habitacion" HorizontalAlignment="Left" Margin="395,90,0,0" VerticalAlignment="Top" Width="165" Height="100" FontSize="14" Click="btnTiposHabitacion_Click"/>
             </Grid>
         </GroupBox>
-        <GroupBox x:Name="grpAgentes" Header="Controles Agentes" Margin="10,135,10,10" IsHitTestVisible="True" Visibility="Visible">
+        <GroupBox x:Name="grpAgentes" Header="Controles Agentes" Margin="10,135,10,10" IsHitTestVisible="True" Visibility="Hidden">
             <Grid Margin="0,1,0,-1">
                 <Button x:Name="btnAsignarServA" Content="Asignar" HorizontalAlignment="Left" Margin="739,34,0,452" VerticalAlignment="Center" Width="105" Height="29" FontSize="14" Click="btnAsignarServ_Click"/>
                 <DataGrid x:Name="dgHabitacionesAsignadas" Margin="55,62,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="239" Height="386" SelectionChanged="dgHabitacionesAsignadas_SelectionChanged"/>
