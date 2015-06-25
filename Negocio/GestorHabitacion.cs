@@ -34,6 +34,7 @@ namespace Negocio
                 IdHabitacion=idhabitacion
             };
             return hadao.ListarLineaCaracHabitacion(a);
+            //deberias poder ver esto como un aviso.
         }
     }
 }
